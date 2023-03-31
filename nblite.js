@@ -31,8 +31,8 @@ function nbToPyScript(nb) {
     return [
         '<html>',
         '<head>',
-        '<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />',
-        '<script defer src="https://pyscript.net/alpha/pyscript.js"></script>',
+        '<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />',
+        '<script defer src="https://pyscript.net/latest/pyscript.js"></script>',
         '<py-env>',
         ...getDeps(scripts).map(dep => `- `+dep),
         '</py-env>',
